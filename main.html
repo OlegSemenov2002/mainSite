@@ -3,17 +3,34 @@
 	<head>
 		<meta charset="utf-8">
 		<title>hi</title>
-		<link rel="stylesheet" href="style.css">
-				
+		<link rel="stylesheet" href="style.css">	
 	</head>
 	<body>
-		<table border="2">
-		</table>
-		
+		<div class="main">
+			<div class="leftSide">
+				<div class="top">
+					<div class="cellsLine">
+						<ul class="cellsMenu"></ul>
+					</div>
+				</div>
+					<div class="bottom">
+					</div>		
+		    </div>
 
-<script src="func.js"></script>
+		    <div class="rigthSide">
+		    	<div class="image"></div>
+		    	  <select name="" class="list" disabled onchange="addImage()">
+		    		  <option value="cat">cat</option>
+		    		  <option value="dog">dog</option>
+		    		  <option value="car">car</option>
+		    		  <option value="house">house</option>
+		    	    </select>	
+		    	  <button class="confirmButton" onclick="confrm()">добавить</button>
+		        </div>
+		   </div>
 
+    <script src="siteFunc.js" defer></script>
+    <script src="func.js" defer></script>
 
-  </script>
 	</body>
 </html>
